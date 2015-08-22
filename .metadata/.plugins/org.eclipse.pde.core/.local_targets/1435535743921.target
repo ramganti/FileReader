@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?><target name="Target Platform" sequenceNumber="5">
+<locations>
+<location path="C:\TIBCO62\bw\palettes\aepalette\1.2\hotfix\runtime\plugins" type="Profile"/>
+<location path="C:\TIBCO62\bw\palettes\aepalette\1.2\runtime\plugins" type="Directory"/>
+<location path="C:\TIBCO62\bw\palettes\activespaces\6.1\hotfix\runtime\plugins" type="Directory"/>
+<location path="C:\TIBCO62\bw\palettes\activespaces\6.1\runtime\plugins" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\hotfix\lib\common" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\lib\common" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\hotfix\palettes" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\palettes" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\hotfix\shared" type="Directory"/>
+<location path="C:\TIBCO62\bw\6.2\system\shared" type="Directory"/>
+</locations>
+<environment>
+<os>win32</os>
+<ws>win32</ws>
+<arch>x86_64</arch>
+<nl>en_US</nl>
+</environment>
+</target>

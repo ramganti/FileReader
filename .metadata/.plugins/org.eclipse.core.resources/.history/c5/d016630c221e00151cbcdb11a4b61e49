@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:appBuilder="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/AppBuilder" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_88XdwCAgEeO-pPmRSfaceg" targetNamespace="http://tns.tibco.com/bw/composite/BaseRecord" name="BaseRecord" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_88Yr4CAgEeO-pPmRSfaceg" name="Deployment" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr4SAgEeO-pPmRSfaceg" name="DirLedger" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr4iAgEeO-pPmRSfaceg" name="DirTrace" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr4yAgEeO-pPmRSfaceg" name="Domain" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr5CAgEeO-pPmRSfaceg" name="HawkEnabled" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr5SAgEeO-pPmRSfaceg" name="JmsProviderUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr5iAgEeO-pPmRSfaceg" name="JmsSslProviderUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr5yAgEeO-pPmRSfaceg" name="RemoteRvDaemon" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr6CAgEeO-pPmRSfaceg" name="RvDaemon" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr6SAgEeO-pPmRSfaceg" name="RvNetwork" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr6iAgEeO-pPmRSfaceg" name="RvService" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr6yAgEeO-pPmRSfaceg" name="RvaHost" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr7CAgEeO-pPmRSfaceg" name="RvaPort" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr7SAgEeO-pPmRSfaceg" name="TIBHawkDaemon" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr7iAgEeO-pPmRSfaceg" name="TIBHawkNetwork" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_88Yr7yAgEeO-pPmRSfaceg" name="TIBHawkService" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_9o3-cCAgEeO-pPmRSfaceg" name="ComponentContainerWriter" compositeext:version="1.0.0">
+    <scaext:implementation xsi:type="appBuilder:AppBuilderImplementation" xmi:id="_9o4lgCAgEeO-pPmRSfaceg" appBuilderThing="ContainerWriter.adfilesmodel"/>
+  </sca:component>
+  <sca:component xmi:id="_9o5MkCAgEeO-pPmRSfaceg" name="ComponentContainerReader" compositeext:version="1.0.0">
+    <scaext:implementation xsi:type="appBuilder:AppBuilderImplementation" xmi:id="_9o5MkSAgEeO-pPmRSfaceg" appBuilderThing="ContainerReader.adfilesmodel"/>
+  </sca:component>
+  <sca:component xmi:id="_C9pe0B4iEeWFXrliA1ooNA" name="Componenttestone" compositeext:version="1.0.0">
+    <scaext:implementation xsi:type="appBuilder:AppBuilderImplementation" xmi:id="_C9pe0R4iEeWFXrliA1ooNA" appBuilderThing="testone.adfilesmodel"/>
+  </sca:component>
+</sca:composite>

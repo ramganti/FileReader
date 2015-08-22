@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<schema:ClassType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basemodel="http://xsd.tns.tibco.com/amf/models/adapter/basemodel" xmlns:schema="http://xsd.tns.tibco.com/amf/models/adapter/schema" xmi:id="Emp" name="Emp">
+  <properties xsi:type="basemodel:StringProperty" name="delimiter" value=","/>
+  <properties xsi:type="basemodel:StringProperty" name="strip" value="false"/>
+  <properties xsi:type="basemodel:StringProperty" name="repeatingDelimiter" value="false"/>
+  <properties xsi:type="basemodel:StringProperty" name="type" value="delimited"/>
+  <properties xsi:type="basemodel:StringProperty" name="identifier" value="const"/>
+  <properties xsi:type="basemodel:StringProperty" name="positionFromHeader" value="begin"/>
+  <attributes name="EMPID" type="../../../ae.schema#string" isReadable="true" isWriteable="true">
+    <properties xsi:type="basemodel:StringProperty" name="position" value="0"/>
+  </attributes>
+  <attributes name="FIRSTNAME" type="../../../ae.schema#string" isReadable="true" isWriteable="true">
+    <properties xsi:type="basemodel:StringProperty" name="position" value="1"/>
+  </attributes>
+  <attributes name="LASTNAME" type="../../../ae.schema#string" isReadable="true" isWriteable="true">
+    <properties xsi:type="basemodel:StringProperty" name="position" value="2"/>
+  </attributes>
+</schema:ClassType>

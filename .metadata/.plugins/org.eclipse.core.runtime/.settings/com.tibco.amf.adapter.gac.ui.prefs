@@ -1,0 +1,10 @@
+connect_factory=1
+eclipse.preferences.version=1
+inputDir=C\:\\Users\\Ram\\BWExamples\\bw62\\adapter\\input
+pub_content_new=ISO8859-1
+pub_eol=System
+pub_workingDir=C\:\\Users\\Ram\\BWExamples\\bw62\\adapter\\working
+service_type_radio=pub
+sub_content=ISO8859-1
+sub_eol=System
+workingDir=C\:\\Users\\Ram\\BWExamples\\bw62\\adapter\\launcher
