@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<adfilesbomodel:AdfilesBODocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfilesbomodel="http://xsd.tns.tibco.com/adfiles/models/adfilesbomodel">
+  <bos xsi:type="adfilesbomodel:WriterDelimitedBO" selected="true" name="Department" visible="true" imageKey="IMG_WRITE_DELIMITED_RECORD" aeSchemaRef="platform:/resource/BaseRecord/AESchemas/ae/FileAdapter/wire/ContainerReader.schema#Department" parse="Delimited" delimiter="Other" delimiterOthers=";">
+    <content xsi:type="adfilesbomodel:WriterDelimitedBO" selected="true" name="Employee" visible="true" imageKey="IMG_WRITE_DELIMITED_RECORD" parentBO="#//@bos.0" aeSchemaRef="platform:/resource/BaseRecord/AESchemas/ae/FileAdapter/wire/ContainerReader.schema#Employee" parse="Delimited" delimiter="Other" delimiterOthers=";">
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" padding=" " width="-1"/>
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" padding=" " width="-1"/>
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field2" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="2" aeType="string" padding=" " width="-1"/>
+    </content>
+    <content xsi:type="adfilesbomodel:WriterDelimitedBO" selected="true" name="Item" visible="true" imageKey="IMG_WRITE_DELIMITED_RECORD" parentBO="#//@bos.0" aeSchemaRef="platform:/resource/BaseRecord/AESchemas/ae/FileAdapter/wire/ContainerReader.schema#Item" parse="Delimited" delimiter="Other" delimiterOthers=";">
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" padding=" " width="-1"/>
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" padding=" " width="-1"/>
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field2" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="2" aeType="string" padding=" " width="-1"/>
+      <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field3" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="3" aeType="string" padding=" " width="-1"/>
+    </content>
+    <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" padding=" " width="-1"/>
+    <content xsi:type="adfilesbomodel:WriterBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" padding=" " width="-1"/>
+  </bos>
+</adfilesbomodel:AdfilesBODocument>

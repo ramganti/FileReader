@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schema="http://xsd.tns.tibco.com/amf/models/adapter/schema">
+  <schema:Sequence xmi:id="sequence[Item]" name="sequence[Item]" elementType="Item"/>
+  <schema:Sequence xmi:id="sequence[Employee]" name="sequence[Employee]" elementType="Employee"/>
+  <schema:ClassType xmi:id="Employee" name="Employee">
+    <attributes name="field" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field1" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field2" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+  </schema:ClassType>
+  <schema:ClassType xmi:id="Department" name="Department">
+    <attributes name="Item^child" type="sequence[Item]" isReadable="true" isWriteable="true"/>
+    <attributes name="field" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field1" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="Employee^child" type="sequence[Employee]" isReadable="true" isWriteable="true"/>
+  </schema:ClassType>
+  <schema:ClassType xmi:id="Item" name="Item">
+    <attributes name="field" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field1" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field2" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+    <attributes name="field3" isReadable="true" isWriteable="true">
+      <type href="../../../ae.schema#string"/>
+    </attributes>
+  </schema:ClassType>
+</xmi:XMI>

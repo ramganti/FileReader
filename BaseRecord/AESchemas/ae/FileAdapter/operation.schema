@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema:RpcClassType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schema="http://xsd.tns.tibco.com/amf/models/adapter/schema" xmi:id="Operation" name="Operation" isRpcClass="true">
+  <operations name="userExit">
+    <type href="../../ae.schema#void"/>
+    <parameters name="inSubject">
+      <type href="../../ae.schema#string"/>
+    </parameters>
+    <parameters name="inObject">
+      <type href="../../ae.schema#any"/>
+    </parameters>
+    <parameters name="inContext">
+      <type href="../../ae.schema#any"/>
+    </parameters>
+    <parameters name="outSubject" direction="out">
+      <type href="../../ae.schema#string"/>
+    </parameters>
+    <parameters name="outObject" direction="out">
+      <type href="../../ae.schema#any"/>
+    </parameters>
+    <parameters name="outContext" direction="out">
+      <type href="../../ae.schema#any"/>
+    </parameters>
+  </operations>
+</schema:RpcClassType>

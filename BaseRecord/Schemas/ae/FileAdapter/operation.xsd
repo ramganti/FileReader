@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/FileAdapter/operation" xmlns:ae="http://www.tibco.com/xmlns/ae2xsd/2002/05" targetNamespace="http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/FileAdapter/operation" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <import namespace="http://www.tibco.com/xmlns/ae2xsd/2002/05" schemaLocation="../../ae2xsd.xsd"/>
+    <complexType ae:type="class" ae:typename="/tibco/public/class/ae/FileAdapter/operation/Operation" ae:directory="/AESchemas/ae/FileAdapter/operation.aeschema#class.Operation" name="Operation"/>
+    <complexType ae:typename="/tibco/public/class/ae/FileAdapter/operation/^reply^Operation^userExit" name="__caret_reply_caret_Operation_caret_userExit">
+        <complexContent>
+            <extension base="ae:new-operationReplyType">
+                <sequence>
+                    <element name="__caret_hasException_caret_" form="unqualified" nillable="true" type="ae:boolean" minOccurs="0"/>
+                    <element name="__caret_exceptionName_caret_" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+                    <element name="__caret_exceptionData_caret_" form="unqualified" nillable="true" type="anyType" minOccurs="0"/>
+                    <element name="__caret_returnValue_caret_" form="unqualified" nillable="true" type="ae:void" minOccurs="0"/>
+                    <element name="__caret_closure_caret_" form="unqualified" nillable="true" type="anyType" minOccurs="0"/>
+                    <element name="__caret_userClosure_caret_" form="unqualified" nillable="true" type="anyType" minOccurs="0"/>
+                    <element name="outSubject" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+                    <element name="outObject" form="unqualified" type="anyType" minOccurs="0"/>
+                    <element name="outContext" form="unqualified" type="anyType" minOccurs="0"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <complexType ae:typename="/tibco/public/class/ae/FileAdapter/operation/^request^Operation^userExit" name="__caret_request_caret_Operation_caret_userExit">
+        <complexContent>
+            <extension base="ae:new-operationRequestType">
+                <sequence>
+                    <element name="inSubject" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+                    <element name="inObject" form="unqualified" type="anyType" minOccurs="0"/>
+                    <element name="inContext" form="unqualified" type="anyType" minOccurs="0"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <element name="__caret_reply_caret_Operation_caret_userExit" type="ns3:__caret_reply_caret_Operation_caret_userExit"/>
+    <element name="__caret_request_caret_Operation_caret_userExit" type="ns3:__caret_request_caret_Operation_caret_userExit"/>
+</schema>

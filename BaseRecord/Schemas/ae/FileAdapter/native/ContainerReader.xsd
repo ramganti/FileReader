@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/FileAdapter/native/ContainerReader" xmlns:ae="http://www.tibco.com/xmlns/ae2xsd/2002/05" targetNamespace="http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/FileAdapter/native/ContainerReader" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <import namespace="http://www.tibco.com/xmlns/ae2xsd/2002/05" schemaLocation="../../../ae2xsd.xsd"/>
+    <complexType ae:type="class" ae:typename="/tibco/public/class/ae/FileAdapter/native/ContainerReader/Department" ae:directory="/AESchemas/ae/FileAdapter/native/ContainerReader.aeschema#class.Department" name="Department">
+        <sequence>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" aex:const="Department" ae:readable="true" ae:writeable="true" aex:position="0" name="field" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="1" name="field1" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:isRecord="true" aex:position="2" name="Employee" form="unqualified" nillable="true" type="ns1:Employee" minOccurs="0"/>
+        </sequence>
+    </complexType>
+    <complexType ae:type="class" ae:typename="/tibco/public/class/ae/FileAdapter/native/ContainerReader/Employee" ae:directory="/AESchemas/ae/FileAdapter/native/ContainerReader.aeschema#class.Employee" name="Employee">
+        <sequence>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" aex:const="Employee" ae:readable="true" ae:writeable="true" aex:position="0" name="field" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="1" name="field1" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="2" name="field2" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+        </sequence>
+    </complexType>
+    <complexType ae:type="class" ae:typename="/tibco/public/class/ae/FileAdapter/native/ContainerReader/Item" ae:directory="/AESchemas/ae/FileAdapter/native/ContainerReader.aeschema#class.Item" name="Item">
+        <sequence>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" aex:const="Item" ae:readable="true" ae:writeable="true" aex:position="0" name="field" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="1" name="field1" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="2" name="field2" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+            <element xmlns:aex="http://xmlns.tibco.com/ae2xsd/extendedProperties/2003" ae:readable="true" ae:writeable="true" aex:position="3" name="field3" form="unqualified" nillable="true" type="ae:string" minOccurs="0"/>
+        </sequence>
+    </complexType>
+    <element name="Department" type="ns1:Department"/>
+    <element name="Employee" type="ns1:Employee"/>
+    <element name="Item" type="ns1:Item"/>
+</schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<adfilesbomodel:AdfilesBODocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfilesbomodel="http://xsd.tns.tibco.com/adfiles/models/adfilesbomodel">
+  <bos xsi:type="adfilesbomodel:ReaderDelimitedBO" selected="true" name="Department" visible="true" imageKey="IMG_READER_DELIMITED" strip="true" delimiter="Other" repeatingDelimiter="true" delimiterOthers=",">
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBO" selected="true" name="Item" visible="true" imageKey="IMG_READER_DELIMITED" parentBO="#//@bos.0" strip="true" delimiter="Other" repeatingDelimiter="true" delimiterOthers=",">
+      <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" const="Item" isWireSchema="true"/>
+      <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" isWireSchema="true"/>
+      <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field2" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="2" aeType="string" isWireSchema="true"/>
+      <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field3" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="3" aeType="string" isWireSchema="true"/>
+    </content>
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" const="Department" isWireSchema="true"/>
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" isWireSchema="true"/>
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="Employee" imageKey="IMG_ATTRIBUTIES" type="#//@bos.1" isReadable="true" isWriteable="true" position="2" aeType="Record" isWireSchema="true"/>
+  </bos>
+  <bos xsi:type="adfilesbomodel:ReaderDelimitedBO" selected="true" name="Employee" visible="true" imageKey="IMG_READER_DELIMITED" strip="true" delimiter="Other" repeatingDelimiter="true" isBaseBo="true" delimiterOthers=",">
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" const="Employee" isWireSchema="true"/>
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field1" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" isWireSchema="true"/>
+    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="field2" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="2" aeType="string" isWireSchema="true"/>
+  </bos>
+</adfilesbomodel:AdfilesBODocument>

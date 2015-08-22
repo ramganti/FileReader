@@ -3546,3 +3546,42 @@ HandlerActivation(commandId=AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.e
 
 !ENTRY com.tibco.xpd.fragments 4 0 2015-08-22 12:47:31.532
 !MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
+
+!ENTRY org.eclipse.bpel.validator 1 0 2015-08-22 14:00:21.813
+!MESSAGE Validator Startup 313ms
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 63 2015-08-22 14:12:03.280
+!MESSAGE Constraint already registered with id "com.tibco.adfiles.ui.pub.TransportDestinationSubjectConstraint"
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.gac.fileSinkNameNotEmpty" could not find target EMF type "FileSink."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.gac.hawkSinkMicroAgentNameNotEmpty" could not find target EMF type "HawkSink."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.gac.networkSinkSubjectNotEmpty" could not find target EMF type "NetworkSink."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.pub.ConfigurationPollingSubjectConstraint" could not find target EMF type "FileScannerImpl."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.pub.ConfigurationPollingIntervalConstraint" could not find target EMF type "FileScannerImpl."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.pub.TransportDestinationSubjectConstraint" could not find target EMF type "AEChannel."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.pub.SchemaPreferenceConstraint" could not find target EMF type "FAPublicationServiceImpl."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.pub.BoFileConstraint" could not find target EMF type "FAPublicationServiceImpl."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.sub.SchemaPreferenceConstraint" could not find target EMF type "FASubscriptionServiceImpl."
+
+!ENTRY org.eclipse.emf.validation 2 70 2015-08-22 14:12:03.280
+!MESSAGE Constraint "com.tibco.adfiles.ui.sub.BoFileConstraint" could not find target EMF type "FASubscriptionServiceImpl."
