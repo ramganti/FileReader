@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<bundle bundleID="398" localization="OSGI-INF/l10n/bundle" name="BaseRecord Application" project="BaseRecord.application" provider="TIBCO Software Inc."/>
-	<bundle bundleID="393" localization="OSGI-INF/l10n/bundle" name="FileReader Application" project="FileReader.application" provider="TIBCO Software Inc."/>
-	<bundle bundleID="395" localization="OSGI-INF/l10n/bundle" name="FileReader Module" project="FileReader" provider="TIBCO Software Inc."/>
-	<bundle bundleID="397" localization="OSGI-INF/l10n/bundle" name="BaseRecord" project="BaseRecord" provider="TIBCO Software Inc.">
-		<library name="."/>
-	</bundle>
-</map>

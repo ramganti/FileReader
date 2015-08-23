@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<schema:ClassType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:schema="http://xsd.tns.tibco.com/amf/models/adapter/schema" xmi:id="Emp" name="Emp">
-  <attributes name="EMPID" type="../../../ae.schema#string" isReadable="true" isWriteable="true"/>
-  <attributes name="FIRSTNAME" type="../../../ae.schema#string" isReadable="true" isWriteable="true"/>
-  <attributes name="LASTNAME" type="../../../ae.schema#string" isReadable="true" isWriteable="true"/>
-</schema:ClassType>

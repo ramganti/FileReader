@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<adfilesbomodel:AdfilesBODocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adfilesbomodel="http://xsd.tns.tibco.com/adfiles/models/adfilesbomodel">
-  <bos xsi:type="adfilesbomodel:ReaderDelimitedBO" selected="true" name="Emp" visible="true" imageKey="IMG_READER_DELIMITED" delimiter="Other" delimiterOthers=",">
-    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="EMPID" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" aeType="string" isWireSchema="true"/>
-    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="FIRSTNAME" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="1" aeType="string" isWireSchema="true"/>
-    <content xsi:type="adfilesbomodel:ReaderDelimitedBOAttribute" selected="true" name="LASTNAME" imageKey="IMG_ATTRIBUTIES" isReadable="true" isWriteable="true" position="2" aeType="string" isWireSchema="true"/>
-  </bos>
-</adfilesbomodel:AdfilesBODocument>
