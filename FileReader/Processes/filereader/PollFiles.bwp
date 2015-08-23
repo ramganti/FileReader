@@ -392,7 +392,7 @@
     </tibex:Types>
     <tibex:ProcessInfo createdBy="Ram"
         createdOn="Thu Aug 20 22:12:49 PDT 2015" description=""
-        modifiedBy="Ram" modifiedOn="Fri Aug 21 06:14:13 PDT 2015"
+        modifiedBy="Ram" modifiedOn="Sun Aug 23 04:38:28 PDT 2015"
         modifiers="public" productVersion="6.2.1 V18 2015-03-13"
         scalable="true" singleton="true" stateless="false" type="IT"/>
     <tibex:ProcessTemplateConfigurations/>
@@ -496,8 +496,8 @@
                                     <element href="//0/@process/@activity/@activity/@activities.1"/>
                                     <layoutConstraint
                                     height="40" width="40"
-                                    x="167"
-                                    xsi:type="notation:Bounds" y="53"/>
+                                    x="263"
+                                    xsi:type="notation:Bounds" y="60"/>
                                     </children>
                                     <styles xsi:type="notation:DrawerStyle"/>
                                     <styles xsi:type="notation:SortingStyle"/>

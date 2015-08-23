@@ -12,4 +12,7 @@
   <sca:component xmi:id="_RWeYAEfDEeW3SZpN-FMeOw" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_RWoJAEfDEeW3SZpN-FMeOw" processName="filereader.PollFiles"/>
   </sca:component>
+  <sca:component xmi:id="_WHeoUEnFEeWfWYpxCCCkhA" name="ComponenttestRead" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_WHeoUUnFEeWfWYpxCCCkhA" processName="filereader.testRead"/>
+  </sca:component>
 </sca:composite>
